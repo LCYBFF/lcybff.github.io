@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on 凡云の博客</title>
+        <link>https://lcybff.github.io/post/</link>
+        <description>Recent content in Posts on 凡云の博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 02 Oct 2022 11:00:41 +0800</lastBuildDate><atom:link href="https://lcybff.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>原神网页小活动资源批量下载工具</title>
+        <link>https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/</link>
+        <pubDate>Sun, 02 Oct 2022 11:00:41 +0800</pubDate>
+        
+        <guid>https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/</guid>
+        <description>&lt;img src="https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/bg.jpg" alt="Featured image of post 原神网页小活动资源批量下载工具" /&gt;&lt;h1 id=&#34;原神网页小活动资源批量下载工具&#34;&gt;原神网页小活动资源批量下载工具&lt;/h1&gt;
+&lt;p&gt;PS：理论上这个工具可以下载任意网站的图片资源&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://lcybff.github.io/helper/genshin/eventSourceDL&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点击前往工具&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/3491267&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点击前往视频教程&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+
+
+    
+
+
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe src=&#34;https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV19G41137CT&#34;
+            scrolling=&#34;no&#34;
+            frameborder=&#34;no&#34;
+            framespacing=&#34;0&#34;
+            allowfullscreen=&#34;true&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;一介绍&#34;&gt;一、介绍&lt;/h2&gt;
+&lt;h3 id=&#34;1界面&#34;&gt;1、界面&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/1.png&#34;
+	width=&#34;2560&#34;
+	height=&#34;1440&#34;
+	srcset=&#34;https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/1_hu0157d17e29002a198c035383edde0131_4155622_480x0_resize_box_3.png 480w, https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/1_hu0157d17e29002a198c035383edde0131_4155622_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;二操作流程chrome浏览器&#34;&gt;二、操作流程（Chrome浏览器）&lt;/h2&gt;
+&lt;h3 id=&#34;1米哈游的页面都是vue动态渲染的f12后先ctrlf5刷新页面以免浏览器缓存&#34;&gt;1、米哈游的页面都是Vue动态渲染的，F12后先ctrl+F5刷新页面，以免浏览器缓存。&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/6.png&#34;
+	width=&#34;1596&#34;
+	height=&#34;1254&#34;
+	srcset=&#34;https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/6_hu52ab394e330c496a550bbf0b192d7972_219516_480x0_resize_box_3.png 480w, https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/6_hu52ab394e330c496a550bbf0b192d7972_219516_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;127&#34;
+		data-flex-basis=&#34;305px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;3接着把能点击的都点了比如游玩剧情分享等操作将所有的图片都显示过一次等到你觉得图片资源都加载完后点击图中图标下载har文件&#34;&gt;3、接着把能点击的都点了（比如游玩剧情，分享等操作，将所有的图片都显示过一次），等到你觉得图片资源都加载完后，点击图中图标下载har文件&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/5.png&#34;
+	width=&#34;1571&#34;
+	height=&#34;1237&#34;
+	srcset=&#34;https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/5_hu9e0a0f31f2f43736f358533dcc9b8fc7_199782_480x0_resize_box_3.png 480w, https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/5_hu9e0a0f31f2f43736f358533dcc9b8fc7_199782_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;127&#34;
+		data-flex-basis=&#34;304px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;4打开下载工具选择下载的har文件上传解析后如图可以预览和单独下载&#34;&gt;4、打开下载工具，选择下载的har文件上传，解析后如图可以预览和单独下载&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/2.png&#34;
+	width=&#34;2560&#34;
+	height=&#34;1440&#34;
+	srcset=&#34;https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/2_hu0157d17e29002a198c035383edde0131_4178448_480x0_resize_box_3.png 480w, https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/2_hu0157d17e29002a198c035383edde0131_4178448_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;5打包下载如果文件数量多需要耐心稍等一下&#34;&gt;5、打包下载，如果文件数量多需要耐心稍等一下&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/3.png&#34;
+	width=&#34;2560&#34;
+	height=&#34;1440&#34;
+	srcset=&#34;https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/3_hu8f2f4fe08c3b9ed155eaef3ba213b33e_3132227_480x0_resize_box_3.png 480w, https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/3_hu8f2f4fe08c3b9ed155eaef3ba213b33e_3132227_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;6完成打包&#34;&gt;6、完成打包&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/4.png&#34;
+	width=&#34;2560&#34;
+	height=&#34;1440&#34;
+	srcset=&#34;https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/4_hu76ac7fc0003efa78c7ea0316ca82d969_4072672_480x0_resize_box_3.png 480w, https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/4_hu76ac7fc0003efa78c7ea0316ca82d969_4072672_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>JS抓取淘宝和天猫店铺的商品信息</title>
+        <link>https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/</link>
+        <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/</guid>
+        <description>&lt;img src="https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/bg.png" alt="Featured image of post JS抓取淘宝和天猫店铺的商品信息" /&gt;&lt;h1 id=&#34;catchproductstaobaotmall&#34;&gt;catchProductsTaobaoTmall&lt;/h1&gt;
+&lt;p&gt;JS抓取淘宝和天猫店铺的商品信息（需在Tampermonkey上使用）&lt;br&gt;
+引用Jquery简化代码操作，以img为中心抓取；支持淘宝与天猫的category和search页&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/LCYBFF/catchProducts_TaobaoTmall&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点击前往仓库&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;写在前面&#34;&gt;写在前面&lt;/h2&gt;
+&lt;p&gt;大概写了3天，起初因为是要给商城类毕设填充数据，所以写了个脚本把淘宝天猫店铺的商品信息扒下来再充上去。
+&lt;del&gt;以后有时间的话写多页版（大概）&lt;/del&gt;&lt;br&gt;
+&lt;strong&gt;如有大佬路过，欢迎提出建议或指正。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;环境需求&#34;&gt;环境需求&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.tampermonkey.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Tampermonkey&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;注意事项&#34;&gt;注意事项&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;该脚本仅用于抓取单页数据&lt;/li&gt;
+&lt;li&gt;天猫店铺抓取时会移除本店内推荐区域，以免混淆&lt;/li&gt;
+&lt;li&gt;因为天猫的商品图片用的数据流，所以抓取时会自动下拉滚动条&lt;/li&gt;
+&lt;li&gt;抓取失败仅输出提示信息，不输出数据&lt;/li&gt;
+&lt;li&gt;抓取失败一般是搜索为空，如有其它bug请联系反馈&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;操作步骤&#34;&gt;操作步骤&lt;/h2&gt;
+&lt;h3 id=&#34;1-打开店铺所有宝贝页点击页面左侧中间数据抓取按钮开始&#34;&gt;1. 打开店铺所有宝贝页，点击页面左侧中间数据抓取按钮开始&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/1.png&#34;
+	width=&#34;287&#34;
+	height=&#34;499&#34;
+	srcset=&#34;https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/1_hu9abbd3abd5fe060e6d02f67d7bc4e650_25659_480x0_resize_box_3.png 480w, https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/1_hu9abbd3abd5fe060e6d02f67d7bc4e650_25659_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;57&#34;
+		data-flex-basis=&#34;138px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2-抓取提示&#34;&gt;2. 抓取提示&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;成功，输出json数据到console&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/2.png&#34;
+	width=&#34;444&#34;
+	height=&#34;147&#34;
+	srcset=&#34;https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/2_hu9abbd3abd5fe060e6d02f67d7bc4e650_14078_480x0_resize_box_3.png 480w, https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/2_hu9abbd3abd5fe060e6d02f67d7bc4e650_14078_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;302&#34;
+		data-flex-basis=&#34;724px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/4.png&#34;
+	width=&#34;729&#34;
+	height=&#34;582&#34;
+	srcset=&#34;https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/4_hu9abbd3abd5fe060e6d02f67d7bc4e650_67507_480x0_resize_box_3.png 480w, https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/4_hu9abbd3abd5fe060e6d02f67d7bc4e650_67507_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;125&#34;
+		data-flex-basis=&#34;300px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;失败&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/3.png&#34;
+	width=&#34;445&#34;
+	height=&#34;129&#34;
+	srcset=&#34;https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/3_hu9abbd3abd5fe060e6d02f67d7bc4e650_12165_480x0_resize_box_3.png 480w, https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/3_hu9abbd3abd5fe060e6d02f67d7bc4e650_12165_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;344&#34;
+		data-flex-basis=&#34;827px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/5.png&#34;
+	width=&#34;710&#34;
+	height=&#34;336&#34;
+	srcset=&#34;https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/5_hu9abbd3abd5fe060e6d02f67d7bc4e650_22491_480x0_resize_box_3.png 480w, https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/5_hu9abbd3abd5fe060e6d02f67d7bc4e650_22491_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;211&#34;
+		data-flex-basis=&#34;507px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;3-抓取成功可点击确认下载文件datajson&#34;&gt;3. 抓取成功可点击确认下载文件data.json&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/6.png&#34;
+	width=&#34;644&#34;
+	height=&#34;553&#34;
+	srcset=&#34;https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/6_hu9abbd3abd5fe060e6d02f67d7bc4e650_48499_480x0_resize_box_3.png 480w, https://lcybff.github.io/p/js%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E5%92%8C%E5%A4%A9%E7%8C%AB%E5%BA%97%E9%93%BA%E7%9A%84%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF/6_hu9abbd3abd5fe060e6d02f67d7bc4e650_48499_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;116&#34;
+		data-flex-basis=&#34;279px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;抓取信息说明&#34;&gt;抓取信息说明&lt;/h2&gt;
+&lt;h3 id=&#34;1-结构一览&#34;&gt;1. 结构一览&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;info&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nt&#34;&gt;&amp;#34;shopname&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nt&#34;&gt;&amp;#34;type&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nt&#34;&gt;&amp;#34;pageNo&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nt&#34;&gt;&amp;#34;pageAll&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nt&#34;&gt;&amp;#34;orderType&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nt&#34;&gt;&amp;#34;lowPrice&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nt&#34;&gt;&amp;#34;highPrice&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nt&#34;&gt;&amp;#34;keyword&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nt&#34;&gt;&amp;#34;vip&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;data&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nt&#34;&gt;&amp;#34;id&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nt&#34;&gt;&amp;#34;proid&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nt&#34;&gt;&amp;#34;title&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nt&#34;&gt;&amp;#34;img&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nt&#34;&gt;&amp;#34;pric&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;2-信息说明&#34;&gt;2. 信息说明&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;info(店铺及搜索条件信息)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;元素&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;类型&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;shopname&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;string&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;店铺名称&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;type&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;string&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;网站类型&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;pageNo&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;int&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;当前页码&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;pageAll&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;int&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;总页码&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;orderType&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;string&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;排序方式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;lowPrice&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;float&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;最低价格&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;highPrice&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;float&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;最高价格&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;keyword&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;string&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;关键字&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;vip&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;bool&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;店铺VIP商品(天猫)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;data(商品信息)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;元素&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;类型&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;id&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;int&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;序号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;proid&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;string&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;商品编号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;title&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;string&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;商品名称&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;img&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;string&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;商品主图地址&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;pric&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;string&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;商品价格&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;开源协议&#34;&gt;开源协议&lt;/h2&gt;
+&lt;p&gt;MIT License&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

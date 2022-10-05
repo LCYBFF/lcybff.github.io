@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='原神网页小活动资源批量下载工具 PS：理论上这个工具可以下载任意网站的图片资源
+点击前往工具
+点击前往视频教程
+一、介绍 1、界面 二、操作流程（Chrome浏览器） 1、米哈游的页面都是Vue动态渲染的，F12后先ctrl&#43;F5刷新页面，以免浏览器缓存。 3、接着把能点击的都点了（比如游玩剧情，分享等操作，将所有的图片都显示过一次），等到你觉得图片资源都加载完后，点击图中图标下载har文件 4、打开下载工具，选择下载的har文件上传，解析后如图可以预览和单独下载 5、打包下载，如果文件数量多需要耐心稍等一下 6、完成打包 '><title>原神网页小活动资源批量下载工具</title>
+
+<link rel='canonical' href='https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/'>
+
+<link rel="stylesheet" href="/scss/style.min.5a8e892f6fa14515e9065eee1f5d2e05302606ec7f11750b2fb95198f9cdcbfd.css"><meta property='og:title' content='原神网页小活动资源批量下载工具'>
+<meta property='og:description' content='原神网页小活动资源批量下载工具 PS：理论上这个工具可以下载任意网站的图片资源
+点击前往工具
+点击前往视频教程
+一、介绍 1、界面 二、操作流程（Chrome浏览器） 1、米哈游的页面都是Vue动态渲染的，F12后先ctrl&#43;F5刷新页面，以免浏览器缓存。 3、接着把能点击的都点了（比如游玩剧情，分享等操作，将所有的图片都显示过一次），等到你觉得图片资源都加载完后，点击图中图标下载har文件 4、打开下载工具，选择下载的har文件上传，解析后如图可以预览和单独下载 5、打包下载，如果文件数量多需要耐心稍等一下 6、完成打包 '>
+<meta property='og:url' content='https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/'>
+<meta property='og:site_name' content='凡云の博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='原神' /><meta property='article:tag' content='实用工具' /><meta property='article:published_time' content='2022-10-02T11:00:41&#43;08:00'/><meta property='article:modified_time' content='2022-10-02T11:00:41&#43;08:00'/><meta property='og:image' content='https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/bg.jpg' />
+<meta name="twitter:title" content="原神网页小活动资源批量下载工具">
+<meta name="twitter:description" content="原神网页小活动资源批量下载工具 PS：理论上这个工具可以下载任意网站的图片资源
+点击前往工具
+点击前往视频教程
+一、介绍 1、界面 二、操作流程（Chrome浏览器） 1、米哈游的页面都是Vue动态渲染的，F12后先ctrl&#43;F5刷新页面，以免浏览器缓存。 3、接着把能点击的都点了（比如游玩剧情，分享等操作，将所有的图片都显示过一次），等到你觉得图片资源都加载完后，点击图中图标下载har文件 4、打开下载工具，选择下载的har文件上传，解析后如图可以预览和单独下载 5、打包下载，如果文件数量多需要耐心稍等一下 6、完成打包 "><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://lcybff.github.io/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/bg.jpg' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/images/avatar_hu05c5af9e53e36697f5bfe3cabbc1d07c_66402_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">凡云の博客</a></h1>
+            <h2 class="site-description">开服旅行者，主要做日本原神主播反应和实用小工具~OoO~</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/3491267'
+                        target="_blank"
+                        title="Bilibili"
+                    >
+                        
+                        
+                            <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1664681312329" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1411" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400"><path d="M306.005333 117.632L444.330667 256h135.296l138.368-138.325333a42.666667 42.666667 0 0 1 60.373333 60.373333L700.330667 256H789.333333A149.333333 149.333333 0 0 1 938.666667 405.333333v341.333334a149.333333 149.333333 0 0 1-149.333334 149.333333h-554.666666A149.333333 149.333333 0 0 1 85.333333 746.666667v-341.333334A149.333333 149.333333 0 0 1 234.666667 256h88.96L245.632 177.962667a42.666667 42.666667 0 0 1 60.373333-60.373334zM789.333333 341.333333h-554.666666a64 64 0 0 0-63.701334 57.856L170.666667 405.333333v341.333334a64 64 0 0 0 57.856 63.701333L234.666667 810.666667h554.666666a64 64 0 0 0 63.701334-57.856L853.333333 746.666667v-341.333334A64 64 0 0 0 789.333333 341.333333zM341.333333 469.333333a42.666667 42.666667 0 0 1 42.666667 42.666667v85.333333a42.666667 42.666667 0 0 1-85.333333 0v-85.333333a42.666667 42.666667 0 0 1 42.666666-42.666667z m341.333334 0a42.666667 42.666667 0 0 1 42.666666 42.666667v85.333333a42.666667 42.666667 0 0 1-85.333333 0v-85.333333a42.666667 42.666667 0 0 1 42.666667-42.666667z" p-id="1412" fill="#bababa"></path></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com'
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>首页</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>暗色模式</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/">
+                <img src="/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/bg_huefd227beb08cc2be9091759e42f8302b_1980104_800x0_resize_q75_box.jpg"
+                        srcset="/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/bg_huefd227beb08cc2be9091759e42f8302b_1980104_800x0_resize_q75_box.jpg 800w, /p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/bg_huefd227beb08cc2be9091759e42f8302b_1980104_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post 原神网页小活动资源批量下载工具" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E5%8E%9F%E7%A5%9E/" >
+                原神
+            </a>
+        
+            <a href="/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/" >
+                实用工具
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/">原神网页小活动资源批量下载工具</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">
+                    2022-10-02</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 1 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="原神网页小活动资源批量下载工具">原神网页小活动资源批量下载工具</h1>
+<p>PS：理论上这个工具可以下载任意网站的图片资源</p>
+<p><a class="link" href="https://lcybff.github.io/helper/genshin/eventSourceDL"  target="_blank" rel="noopener"
+    >点击前往工具</a></p>
+<p><a class="link" href="https://space.bilibili.com/3491267"  target="_blank" rel="noopener"
+    >点击前往视频教程</a></p>
+
+
+
+
+
+
+    
+
+
+<div class="video-wrapper">
+    <iframe src="https://player.bilibili.com/player.html?as_wide=1&amp;high_quality=1&amp;page=1&bvid=BV19G41137CT"
+            scrolling="no"
+            frameborder="no"
+            framespacing="0"
+            allowfullscreen="true"
+    >
+    </iframe>
+</div>
+
+<h2 id="一介绍">一、介绍</h2>
+<h3 id="1界面">1、界面</h3>
+<p><img src="/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/1.png"
+	width="2560"
+	height="1440"
+	srcset="/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/1_hu0157d17e29002a198c035383edde0131_4155622_480x0_resize_box_3.png 480w, /p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/1_hu0157d17e29002a198c035383edde0131_4155622_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+></p>
+<h2 id="二操作流程chrome浏览器">二、操作流程（Chrome浏览器）</h2>
+<h3 id="1米哈游的页面都是vue动态渲染的f12后先ctrlf5刷新页面以免浏览器缓存">1、米哈游的页面都是Vue动态渲染的，F12后先ctrl+F5刷新页面，以免浏览器缓存。</h3>
+<p><img src="/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/6.png"
+	width="1596"
+	height="1254"
+	srcset="/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/6_hu52ab394e330c496a550bbf0b192d7972_219516_480x0_resize_box_3.png 480w, /p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/6_hu52ab394e330c496a550bbf0b192d7972_219516_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="127"
+		data-flex-basis="305px"
+	
+></p>
+<h3 id="3接着把能点击的都点了比如游玩剧情分享等操作将所有的图片都显示过一次等到你觉得图片资源都加载完后点击图中图标下载har文件">3、接着把能点击的都点了（比如游玩剧情，分享等操作，将所有的图片都显示过一次），等到你觉得图片资源都加载完后，点击图中图标下载har文件</h3>
+<p><img src="/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/5.png"
+	width="1571"
+	height="1237"
+	srcset="/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/5_hu9e0a0f31f2f43736f358533dcc9b8fc7_199782_480x0_resize_box_3.png 480w, /p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/5_hu9e0a0f31f2f43736f358533dcc9b8fc7_199782_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="127"
+		data-flex-basis="304px"
+	
+></p>
+<h3 id="4打开下载工具选择下载的har文件上传解析后如图可以预览和单独下载">4、打开下载工具，选择下载的har文件上传，解析后如图可以预览和单独下载</h3>
+<p><img src="/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/2.png"
+	width="2560"
+	height="1440"
+	srcset="/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/2_hu0157d17e29002a198c035383edde0131_4178448_480x0_resize_box_3.png 480w, /p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/2_hu0157d17e29002a198c035383edde0131_4178448_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+></p>
+<h3 id="5打包下载如果文件数量多需要耐心稍等一下">5、打包下载，如果文件数量多需要耐心稍等一下</h3>
+<p><img src="/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/3.png"
+	width="2560"
+	height="1440"
+	srcset="/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/3_hu8f2f4fe08c3b9ed155eaef3ba213b33e_3132227_480x0_resize_box_3.png 480w, /p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/3_hu8f2f4fe08c3b9ed155eaef3ba213b33e_3132227_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+></p>
+<h3 id="6完成打包">6、完成打包</h3>
+<p><img src="/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/4.png"
+	width="2560"
+	height="1440"
+	srcset="/p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/4_hu76ac7fc0003efa78c7ea0316ca82d969_4072672_480x0_resize_box_3.png 480w, /p/%E5%8E%9F%E7%A5%9E%E7%BD%91%E9%A1%B5%E5%B0%8F%E6%B4%BB%E5%8A%A8%E8%B5%84%E6%BA%90%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/4_hu76ac7fc0003efa78c7ea0316ca82d969_4072672_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="177"
+		data-flex-basis="426px"
+	
+></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E5%8E%9F%E7%A5%9E/">原神</a>
+        
+            <a href="/tags/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/">实用工具</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2022 凡云の博客
+    </section>
+    
+    <section class="powerby">
+        
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#一介绍">一、介绍</a>
+      <ol>
+        <li><a href="#1界面">1、界面</a></li>
+      </ol>
+    </li>
+    <li><a href="#二操作流程chrome浏览器">二、操作流程（Chrome浏览器）</a>
+      <ol>
+        <li><a href="#1米哈游的页面都是vue动态渲染的f12后先ctrlf5刷新页面以免浏览器缓存">1、米哈游的页面都是Vue动态渲染的，F12后先ctrl+F5刷新页面，以免浏览器缓存。</a></li>
+        <li><a href="#3接着把能点击的都点了比如游玩剧情分享等操作将所有的图片都显示过一次等到你觉得图片资源都加载完后点击图中图标下载har文件">3、接着把能点击的都点了（比如游玩剧情，分享等操作，将所有的图片都显示过一次），等到你觉得图片资源都加载完后，点击图中图标下载har文件</a></li>
+        <li><a href="#4打开下载工具选择下载的har文件上传解析后如图可以预览和单独下载">4、打开下载工具，选择下载的har文件上传，解析后如图可以预览和单独下载</a></li>
+        <li><a href="#5打包下载如果文件数量多需要耐心稍等一下">5、打包下载，如果文件数量多需要耐心稍等一下</a></li>
+        <li><a href="#6完成打包">6、完成打包</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
