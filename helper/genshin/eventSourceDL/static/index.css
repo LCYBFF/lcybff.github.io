@@ -40,6 +40,12 @@ body {
 .el-link {
   margin-right: 5px;
 }
+.el-image-viewer__wrapper {
+  z-index: 9999 !important;
+}
+.notice {
+  margin-bottom: 1rem;
+}
 @media screen and (max-width: 768px) {
   .top {
     flex-direction: column;
@@ -54,5 +60,8 @@ body {
   }
   .actions {
     flex-direction: column;
+  }
+  .notice {
+    text-align: center;
   }
 }

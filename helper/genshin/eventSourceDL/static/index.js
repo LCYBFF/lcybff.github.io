@@ -107,7 +107,8 @@ createApp({
                 let name = e.name
                 let image = new Image()
                 image.setAttribute('crossOrigin', 'Anonymous') // 设置 crossOrigin 属性，解决图片跨域报错
-                image.src = e.url
+                // 添加时间戳，防止浏览器缓存图片
+                image.src = e.url + '?timestamp=' + new Date().getTime()
                 image.onload = async() => {
                     let url = await that.getImageBase64(image)
                     fileList.push({
