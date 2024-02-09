@@ -1,0 +1,213 @@
+{
+  "arealist": [{
+    "name": "B站首页推荐栏（新版）",
+    "area": "bilibili",
+    "main": ".recommend-container__2-line",
+    "item": ".bili-video-card",
+    "text": ".bili-video-card__info--tit a",
+    "media": "img",
+    "user": ".bili-video-card__info--author",
+    "on": true,
+    "home": false
+  }, {
+    "name": "B站首页推荐栏（内测）",
+    "area": "bilibili",
+    "main": ".recommended-container_floor-aside",
+    "item": ".bili-video-card",
+    "text": ".bili-video-card__info--tit a",
+    "media": "img",
+    "user": ".bili-video-card__info--author",
+    "on": true,
+    "home": false
+  }, {
+    "name": "B站视频页右侧推荐栏",
+    "area": "bilibili",
+    "main": "#reco_list",
+    "item": ".video-page-card-small",
+    "text": ".title",
+    "media": "img",
+    "user": ".upname .name",
+    "on": true,
+    "home": false
+  }, {
+    "name": "B站视频播放结束推荐列表",
+    "area": "bilibili",
+    "main": ".bpx-player-ending-related",
+    "item": ".bpx-player-ending-related-item",
+    "text": ".bpx-player-ending-related-item-title",
+    "media": ".bpx-player-ending-related-item-img",
+    "user": "",
+    "on": true,
+    "home": false
+  }, {
+    "name": "B站搜索页",
+    "area": "bilibili",
+    "main": ".search-page .video-list",
+    "item": ".video-list-item, .bili-video-card",
+    "text": ".bili-video-card__info--tit",
+    "media": "img",
+    "user": ".bili-video-card__info--author",
+    "on": true,
+    "home": false
+  }, {
+    "name": "B站频道页（精选、综合）",
+    "area": "bilibili",
+    "main": ".card-list",
+    "item": ".video-card",
+    "text": ".video-name",
+    "media": ".cover-picture__image",
+    "user": ".up-name__text",
+    "on": true,
+    "home": false
+  }, {
+    "name": "动态首页",
+    "area": "bilibili",
+    "main": ".bili-dyn-home--member .bili-dyn-list__items",
+    "item": ".bili-dyn-list__item",
+    "text": ".bili-dyn-content__orig__desc, .bili-dyn-card-video__title, .bili-dyn-card-video__desc, .bili-dyn-content__forw__desc",
+    "media": ".bili-album__preview__picture, .bili-awesome-img, .b-img",
+    "user": ".bili-dyn-title__text",
+    "on": true,
+    "home": false
+  }, {
+    "name": "B站UP主空间代表作",
+    "area": "bilibili",
+    "main": ".s-space .i-pin-v",
+    "item": ".i-pin-part",
+    "text": ".i-pin-title",
+    "media": ".i-pin-cover",
+    "user": "#h-name",
+    "on": true,
+    "home": true
+  }, {
+    "name": "B站UP主空间（TA的视频、投稿）",
+    "area": "bilibili",
+    "main": ".s-space .video .content",
+    "item": ".small-item",
+    "text": ".title",
+    "media": "img",
+    "user": "#h-name",
+    "on": true,
+    "home": true
+  }, {
+    "name": "B站UP主空间合集",
+    "area": "bilibili",
+    "main": ".s-space .series",
+    "item": ".small-item",
+    "text": ".title",
+    "media": "img",
+    "user": "#h-name",
+    "on": true,
+    "home": true
+  }, {
+    "name": "B站UP主空间动态",
+    "area": "bilibili",
+    "main": ".s-space .bili-dyn-list__items",
+    "item": ".bili-dyn-list__item",
+    "text": ".bili-dyn-content__orig__desc, .bili-dyn-card-video__title, .bili-dyn-card-video__desc, .bili-dyn-content__forw__desc",
+    "media": ".bili-album__preview__picture, .bili-awesome-img, .b-img",
+    "user": ".bili-dyn-title",
+    "on": true,
+    "home": true
+  }, {
+    "name": "B站评论区评论文本（旧版）楼主回复",
+    "area": "bilibili",
+    "main": ".comment-list",
+    "item": ".list-item",
+    "text": ".text",
+    "media": "",
+    "user": "",
+    "on": true,
+    "home": false
+  }, {
+    "name": "B站评论区评论文本（旧版）楼中楼回复",
+    "area": "bilibili",
+    "main": ".reply-box",
+    "item": ".reply-item",
+    "text": ".text-con",
+    "media": "",
+    "user": "",
+    "on": true,
+    "home": false
+  }, {
+    "name": "B站评论区评论文本（新版）楼主回复",
+    "area": "bilibili",
+    "main": ".reply-list",
+    "item": ".reply-item",
+    "text": ".root-reply .reply-content",
+    "media": "",
+    "user": "",
+    "on": true,
+    "home": false
+  }, {
+    "name": "B站评论区评论文本（新版）楼中楼回复",
+    "area": "bilibili",
+    "main": ".sub-reply-list",
+    "item": ".sub-reply-item",
+    "text": ".sub-reply-content",
+    "media": "",
+    "user": "",
+    "on": true,
+    "home": false
+  }, {
+    "name": "B站消息中心（回复我的）",
+    "area": "bilibili",
+    "main": ".reply-card",
+    "item": ".reply-item",
+    "text": ".line-2 .text",
+    "media": ".right-box",
+    "user": ".line-1 .name-field",
+    "on": true,
+    "home": false
+  }, {
+    "name": "油管首页推荐",
+    "area": "youtube",
+    "main": "ytd-rich-grid-renderer",
+    "item": "ytd-rich-item-renderer",
+    "text": "#video-title",
+    "media": "img",
+    "user": "ytd-channel-name yt-formatted-string",
+    "on": true,
+    "home": false
+  }, {
+    "name": "油管搜索页",
+    "area": "youtube",
+    "main": "ytd-item-section-renderer",
+    "item": "ytd-video-renderer",
+    "text": "yt-formatted-string:eq(0)",
+    "media": "img",
+    "user": "ytd-channel-name yt-formatted-string",
+    "on": true,
+    "home": false
+  }, {
+    "name": "油管视频页右侧推荐栏",
+    "area": "youtube",
+    "main": "ytd-watch-next-secondary-results-renderer",
+    "item": "ytd-item-section-renderer ytd-compact-video-renderer",
+    "text": "#video-title",
+    "media": "img",
+    "user": "ytd-channel-name yt-formatted-string",
+    "on": true,
+    "home": false
+  }, {
+    "name": "油管主视频列表页",
+    "area": "youtube",
+    "main": "ytd-rich-grid-renderer",
+    "item": "ytd-rich-item-renderer",
+    "text": "#video-title",
+    "media": "img",
+    "user": "ytd-channel-name yt-formatted-string",
+    "on": true,
+    "home": true
+  }, {
+    "name": "推文列表",
+    "area": "twitter",
+    "main": "section",
+    "item": "[data-testid=tweet]",
+    "text": "[data-testid=tweetText]",
+    "media": "[data-testid=tweetPhoto], video",
+    "user": "[data-testid=User-Name]",
+    "on": true,
+    "home": false
+  }]
+}
