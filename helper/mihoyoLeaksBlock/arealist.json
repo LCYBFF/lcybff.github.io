@@ -22,7 +22,7 @@
   }, {
     "name": "B站视频页右侧推荐栏",
     "area": "bilibili",
-    "main": "#reco_list",
+    "main": ".rec-list",
     "item": ".video-page-card-small",
     "text": ".title",
     "media": "img",
