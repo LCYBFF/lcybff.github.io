@@ -114,9 +114,9 @@
     "area": "youtube",
     "main": "ytd-rich-grid-renderer",
     "item": "ytd-rich-item-renderer",
-    "text": ".yt-lockup-metadata-view-model__title",
-    "media": ".yt-lockup-view-model__content-image",
-    "user": ".yt-content-metadata-view-model__metadata-row:first-child",
+    "text": "#video-title",
+    "media": "ytd-thumbnail",
+    "user": "ytd-channel-name",
     "on": true,
     "home": false
   }, {
@@ -133,15 +133,15 @@
     "name": "油管视频页右侧推荐栏",
     "area": "youtube",
     "main": "ytd-watch-next-secondary-results-renderer",
-    "item": "ytd-item-section-renderer yt-lockup-view-model",
-    "text": ".yt-lockup-metadata-view-model__heading-reset",
-    "media": "yt-thumbnail-view-model",
-    "user": "yt-content-metadata-view-model .yt-content-metadata-view-model__metadata-row:nth-child(1)",
+    "item": "ytd-item-section-renderer ytd-compact-video-renderer",
+    "text": "#video-title",
+    "media": "ytd-thumbnail",
+    "user": "ytd-channel-name",
     "on": true,
     "home": false
   }, {
     "name": "推文列表",
-    "area": "twitter",
+    "area": "x",
     "main": "[aria-labelledby='accessible-list-1']",
     "item": "[data-testid=tweet]",
     "text": "[data-testid=tweetText]",
