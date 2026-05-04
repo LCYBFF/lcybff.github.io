@@ -1,0 +1,511 @@
+#blockOpenButton {
+    position:fixed;
+    z-index:99997;
+    right:0;
+    top:40%;
+    width:30px;
+    border-top-right-radius:2px;
+    border-bottom-right-radius:2px;
+    background-color:rgba(0 178 255);
+    font-size:12px;
+    color:#fff;
+    padding:8px 9px;
+    line-height:14px;
+    box-sizing:border-box;
+    text-decoration:none;
+    outline:none;
+    cursor:pointer;
+    background-position: center 5px;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    transition: all 0.3s;
+}
+#blockOpenButton:hover {
+    box-shadow:0 0px 10px 0 rgba(0 178 255 / 40%);
+}
+#blockLayout {
+    display: none;
+}
+#blockLayout *::-webkit-scrollbar {
+    width: 6px;
+    height: 1px;
+}
+#blockLayout *::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #dfd0b3;
+}
+#blockLayout *::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: #ededed;
+}
+#blockLayout * {
+    font-family: 'system-ui' !important
+}
+#blockLayout .bg {
+    position: fixed;
+    inset: 0px;
+    background: rgba(0, 0, 0, 0.7);
+    animation-name: balh-settings-bg;
+    animation-duration: 0.5s;
+    z-index: 99997;
+    cursor: pointer;
+}
+#blockLayout .box {
+    position: fixed;
+    background: rgb(59, 67, 84);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: default;
+    z-index: 99997;
+}
+#blockLayout .box * {
+    line-height: 1.5
+}
+#blockLayout .box .header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80px;
+}
+#blockLayout .box .body {
+    padding: 20px;
+    background-color: #ece5d8;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-size: cover;
+}
+#blockLayout .box img {
+    max-width: 100%;
+}
+#blockLayout.active {
+    display: block;
+}
+#blockLayout .box h1 {
+    color: #d3bc8e;
+    font-size: 32px;
+    font-weight: bolder;
+    line-height: 80px;
+    margin: 0;
+}
+#blockLayout .box p {
+    color: #323947;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+#blockLayout .box label {
+    font-size: 16px;
+}
+#blockLayout .box .tabs {
+    width: 100%;
+}
+#blockLayout .box .tabs-title {
+    position: relative;
+    height: 40px;
+    white-space: nowrap;
+    border-bottom: 1px solid #7e7e7e;
+    display: flex;
+}
+#blockLayout .box .tabs-title .tab {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    position: relative;
+    line-height: 40px;
+    padding: 0 15px;
+    text-align: center;
+    cursor: pointer;
+    flex: 1 0 0;
+    width: auto;
+    color: #7e7e7e;
+    color: #323947;
+}
+#blockLayout .box .tabs-title .tab::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 100%;
+    height: 41px;
+    border-radius: 2px 2px 0 0;
+    box-sizing: border-box;
+    pointer-events: none;
+    border-bottom: 2px solid #323947;
+}
+#blockLayout .box .tabs-content .tab-item {
+    padding: 10px 0;
+    max-height: 400px;
+    overflow-x: hidden;
+    padding-right: 8px;
+}
+#blockLayout textarea, #blockLayout input {
+    width: 100%;
+    box-sizing: border-box;
+    resize:none;
+    padding: 10px;
+    font-size: 16px;
+    color: #000;
+    height: 120px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 0;
+    margin-bottom: 10px;
+}
+#blockLayout input {
+    padding: 4px 5px;
+    height: auto;
+    font-size: 14px;
+}
+#blockLayout textarea:focus-visible, #blockLayout input:focus-visible {
+    outline: 0;
+}
+#blockLayout input[type="checkbox"] {
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+#blockLayout input[type="checkbox"] + label {
+    position: relative;
+    margin-right: 10px;
+}
+#blockLayout input[type="checkbox"] + label::before {
+    background-color: #ece5d8;
+    border-radius: 0.5px;
+    color: #FFF;
+    content: "\a0";
+    display: inline-block;
+    height: 15px;
+    text-align: center;
+    line-height: 100%;
+    width: 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#blockLayout input[type="checkbox"] {
+    clip: rect(0, 0, 0, 0);
+    position: absolute;
+}
+#blockLayout input[type="checkbox"]:checked + label::before {
+    content: "\2713";
+    color: #323947;
+}
+#blockLayout .cornerIcon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+}
+#blockLayout .cornerIcon.lt {
+    left: -10px;
+    top: -10px;
+}
+#blockLayout .cornerIcon.rt {
+    right: -10px;
+    top: -10px;
+    transform: rotate(90deg);
+}
+#blockLayout .cornerIcon.lb {
+    left: -10px;
+    bottom: -10px;
+    transform: rotate(-90deg);
+}
+#blockLayout .cornerIcon.rb {
+    right: -10px;
+    bottom: -10px;
+    transform: rotate(180deg);
+}
+#blockLayout .toolerGroup {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+#blockLayout .iconButton {
+    cursor: pointer;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+    margin-left: 5px;
+    position: relative;
+}
+#blockLayout .iconButton.watchButton i {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 6px;
+    height: 6px;
+    background: red;
+    border-radius: 50%;
+}
+#blockLayout .btnGroup {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+#blockLayout #blockMsg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100px;
+    border-radius: 2px;
+    background-color: rgba(0,0,0,.6);
+    color: #fff;
+    visibility: hidden;
+    transition: all 0.3s;
+    padding: 12px 25px;
+    text-align: center;
+}
+#blockLayout #blockMsg.active {
+    visibility: visible;
+    z-index: 99999;
+}
+.blurBlock {
+    filter: blur(30px);
+}
+#blockLayout .button {
+    background-color: #4a5366;
+    border-radius: 50px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#blockLayout .button:hover {
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+#blockLayout .button .icon {
+    background: #333333;
+    border-radius: 50%;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#blockLayout .button .text {
+    color: #ece5d8;
+    margin: 0 30px;
+    font-size: 18px;
+}
+#blockLayout .button .icon span {
+    border-radius: 10px;
+    width: 20px;
+    height: 2px;
+}
+#blockLayout .resetButton span {
+    background-color: #38a1e4;
+    position: absolute;
+}
+#blockLayout .resetButton span:first-child {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+#blockLayout .resetButton span:last-child {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#blockLayout .button .icon.listIcon {
+    flex-direction: column;
+}
+#blockLayout .button .icon.listIcon span {
+    background-color: #ece5d8;
+    margin: 3px 0
+}
+#blockLayout .button .icon .yellow-circle {
+    width: 25px;
+    height: 25px;
+    background-color: #ffcc33;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#blockLayout .button .icon .black-circle {
+    background-color: #333333;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+#blockLayout .modulesWrap {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99998;
+    display: flex;
+    gap: 10px
+}
+#blockLayout .modulesWrap > * {
+    position: relative;
+    width: 300px;
+    border-radius: 2px;
+    background-color: #323947;
+    color: #fff;
+    display: none;
+    text-align: center;
+    z-index: 99998;
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
+#blockLayout .modulesWrap #compareWrap {
+    width: 400px
+}
+#blockLayout .modulesWrap > *.show {
+    display: block;
+}
+#blockLayout .modulesWrap .toolerGroup {
+    top: 12px;
+}
+#blockLayout .modulesWrap .areaBox {
+    padding: 12px;
+}
+#blockLayout .modulesWrap .areaBox h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    color: #fff;
+}
+#blockLayout .modulesWrap .areaBox .areaList, #blockLayout .modulesWrap .areaBox .areaForm {
+    margin-top: 10px;
+    overflow-x: hidden;
+    max-height: 340px;
+    padding: 0 2px;
+}
+#blockLayout .modulesWrap #updateWrap .areaBox .areaList {
+    overflow: unset;
+}
+#blockLayout .modulesWrap .areaBox .areaList .areaItem {
+    padding: 0px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #323947;
+    height: 33px;
+}
+#blockLayout .modulesWrap .areaBox .areaList .areaItem:hover {
+    transform: scale(1.01);
+}
+#blockLayout .modulesWrap .areaBox .areaList .areaItem:last-child {
+    margin-bottom: 0;
+}
+#blockLayout .modulesWrap .areaBox .areaList .areaItem .name {
+    width: 70%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    text-align: left;
+    font-size: 14px;
+}
+#blockLayout .modulesWrap .areaBox .areaList .areaItem .actions {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#blockLayout #areaWrap .areaBox .areaList .areaItem .actions .switchButton {
+    position: relative;
+    height: 22px;
+    line-height: 22px;
+    width: 45px;
+    border: 1px solid #d2d2d2;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #fff;
+    -webkit-transition: .1s linear;
+    transition: .1s linear;
+}
+#blockLayout #areaWrap .areaBox .areaList .areaItem .actions .switchButton.on {
+    border-color: #cfc1a6;
+    background-color: #cfc1a6;
+}
+#blockLayout #areaWrap .areaBox .areaList .areaItem .actions .switchButton i {
+    position: absolute;
+    left: 5px;
+    top: 2.5px;
+    width: 16px;
+    height: 16px;
+    border-radius: 20px;
+    background-color: #d2d2d2;
+    -webkit-transition: .1s linear;
+    transition: .1s linear;
+}
+#blockLayout #areaWrap .areaBox .areaList .areaItem .actions .switchButton.on i {
+    left: 100%;
+    margin-left: -21px;
+    background-color: #fff;
+}
+#blockLayout #areaWrap .areaBox .areaForm {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#blockLayout #areaWrap .areaBox .areaForm p {
+    width: 25%;
+    font-size: 14px;
+    margin-top: 0;
+}
+#blockLayout #areaWrap .areaBox .areaForm input {
+    width: 75%;
+    line-height: 0;
+}
+#blockLayout #areaWrap .areaBox .areaForm > * {
+    margin-bottom: 10px;
+}
+#blockLayout #areaWrap .areaBox .areaForm button {
+    width: 35%;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    cursor:pointer;
+}
+#blockLayout #areaWrap .areaBox .areaForm button.backToList {
+    background: #fff;
+    color: #323947;
+}
+#blockLayout #areaWrap .areaBox .areaForm button.submitArea {
+    background: #00b2ff;
+    color: #fff;
+}
+#blockLayout #compareWrap .areaBox p {
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 768px){
+    #blockLayout .box {
+        width: 95%;
+    }
+    #blockLayout .box .header {
+        height: 50px;
+    }
+    #blockLayout .box h1 {
+        font-size: 18px;
+        line-height: 50px;
+    }
+    #blockLayout .toolerGroup {
+        top: 15px;
+    }
+}

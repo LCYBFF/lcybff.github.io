@@ -114,9 +114,9 @@
     "area": "youtube",
     "main": "ytd-rich-grid-renderer",
     "item": "ytd-rich-item-renderer",
-    "text": ".yt-lockup-metadata-view-model__title",
-    "media": ".yt-lockup-view-model__content-image",
-    "user": ".yt-content-metadata-view-model__metadata-row:first-child",
+    "text": ".ytLockupMetadataViewModelTitle",
+    "media": "yt-thumbnail-view-model",
+    "user": "yt-content-metadata-view-model .ytContentMetadataViewModelMetadataRow:first-child",
     "on": true,
     "home": false
   }, {
@@ -134,9 +134,9 @@
     "area": "youtube",
     "main": "ytd-watch-next-secondary-results-renderer",
     "item": "ytd-item-section-renderer yt-lockup-view-model",
-    "text": ".yt-lockup-metadata-view-model__heading-reset",
+    "text": ".ytLockupMetadataViewModelTextContainer .ytLockupMetadataViewModelHeadingReset",
     "media": "yt-thumbnail-view-model",
-    "user": "yt-content-metadata-view-model .yt-content-metadata-view-model__metadata-row:nth-child(1)",
+    "user": ".ytContentMetadataViewModelMetadataRow:first-child",
     "on": true,
     "home": false
   }, {
