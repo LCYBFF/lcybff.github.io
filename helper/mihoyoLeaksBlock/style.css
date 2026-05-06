@@ -242,6 +242,7 @@
     background-size: 24px 24px;
     margin-left: 5px;
     position: relative;
+    padding: 0;
 }
 #blockLayout .iconButton.watchButton i {
     position: absolute;
@@ -524,7 +525,7 @@
 .blockOverlay {
     position: absolute;
     inset: 0;
-    z-index: 9999;
+    z-index: 999;
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
     background: rgba(0, 0, 0, 0.3);
