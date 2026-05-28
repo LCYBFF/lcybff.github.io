@@ -525,7 +525,7 @@
 .blockOverlay {
     position: absolute;
     inset: 0;
-    z-index: 999;
+    z-index: 10;
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
     background: rgba(0, 0, 0, 0.3);
